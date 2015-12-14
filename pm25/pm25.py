@@ -1,6 +1,5 @@
 # /usr/bin/env python
 #coding:utf-8
-#author = 'zuona'
 
 import urllib2,json
 
