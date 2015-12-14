@@ -12,9 +12,4 @@ Html_url = urllib2.urlopen(request).read()
 Json_url = json.JSONDecoder().decode(Html_url)
 Short_url = Json_url['urls'][0]['url_short']
 Long_url = Json_url['urls'][0]['url_long']
-print "Short Url:"+Short_url
-print "Long Url:"+Long_url
-
-
-
-
+print u"短网址:"+Short_url
