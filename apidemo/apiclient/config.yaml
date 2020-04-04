@@ -1,0 +1,8 @@
+-
+    url: /
+    detail: open
+    method: post
+    data:
+        opcode: 1
+    check:
+        - ok
